@@ -100,4 +100,33 @@ public class IntArrayWorker
         }
     }
 
+
+    public int getCount(int target){
+      // init a var to count the number of times target is in `matrix`
+      int count =0;
+      // itereate over `matrix` and increase the `count` variable everytime
+      // you find a `target` in `matrix`
+
+
+      // return the count
+      return count;
+
+    }
+
+
+    public int getLargest(){
+        int largest = Integer.MIN_VALUE;
+        // iterate over the entire matrix and find the biggest value
+
+
+        return largest;
+    }
+
+
+    public int getColTotal(int column){
+      int total = 0;
+      // iterate over the column passed as a param and find the total for that specific column
+
+      return total;
+    }
 }

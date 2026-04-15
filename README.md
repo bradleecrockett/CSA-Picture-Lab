@@ -26,4 +26,17 @@ public static void main( String args[]) {
   pix.explore();   
 } 
 ```
-The body of the main method declares a reference to a Picture object named pix and sets that variable to refer to a Picture object created from the data stored in a JPEG file named“beach.jpg”in the images folder. A JPEG file is one that follows an international standard for storing picture data using lossycompression. Lossy compressionmeans that the amount of data that is stored is much smaller than the available data, but the part that is not stored is    data we won't miss.  Exercises1.Modify the main method in the PictureExplorer class to create and explore a different picture from the images folder.  2.Add a picture to the images folder and then create and explore that picture in the main method. If the picture is very large (for instance, one from a digital camera), you can scale it using the scale method in the Picture class. For example, you can make a new picture(“smallMyPicture.jpg”in the images folder) one-fourth the size of the original(“myPicture.jpg”)using:Picture p = new Picture("myPicture.jpg");  Picture smallP = p.scale(0.25,0.25);  smallP.write("smallMyPicture.jpg");  
+The body of the main method declares a reference to a Picture object named pix and sets that variable to refer to a Picture object created from the data stored in a JPEG file named “beach.jpg”in the images folder. 
+A JPEG file is one that follows an international standard for storing picture data using lossycompression. Lossy compressionmeans that the amount of data that is stored is much smaller than the available data, but the part that is not stored is    data we won't miss.  
+
+Exercises
+1.Modify the main method in the PictureExplorer class to create and explore a different picture from the images folder.  
+2.Add a picture to the images folder and then create and explore that picture in the main method. If the picture is very large (for instance, one from a digital camera), you can scale it using the scale method in the Picture class. 
+
+For example, you can make a new picture(“smallMyPicture.jpg” in the images folder) one-fourth the size of the original(“myPicture.jpg”) using: 
+
+```java
+Picture p = new Picture("myPicture.jpg");
+Picture smallP = p.scale(0.25,0.25);  
+smallP.write("smallMyPicture.jpg");  
+```
