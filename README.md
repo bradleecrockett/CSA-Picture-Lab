@@ -21,11 +21,26 @@ In this lab, you will write Java methods to manipulate digital pictures while le
 **Activty Questions** numbered like: **[A1Q1]** (Activity 1 Question 1) need to be answered on the `README.md` file. By going to the next line, tabbing in once and adding an`*` your answer to the questions will get formatted and become more readable. For example:
 
 ```
+
 * **[A1Q1]** How many bits does it take to represent the values from 0 to 255?
     * It takes 8 bits to represent values frmo 0 - 255.
 ```
 
 **Activity Exercises** numbered like: **[A3E2]** (Activty 3 Exercise 2) need to be completed in the code base.
+
+### AI Help (Copilot will have acces to the Repo but "CS50 Duck" is already trained as a CS tutor)
+Some of you will want to use AI to help you answer questions (or better yet check your repsonses).
+
+If this is you, I ask that you start your coversation with a prompt including instructions for the AI to behave like a teacher or personal tutor. This will allow the AI to guide you to the correct answers without taking the learning away from you. A good starting prompt could be something like:
+
+> "I am working through the AP Computer Science A Picture Lab `README.md` I am going to answer the activity questions one by one. Your job is to act as a supportive computer science tutor.
+
+> Rules:   
+ Do NOT tell me the direct answers to the questions.   
+ If my answer is correct, confirm it briefly and prompt me to explain If my answer is incorrect or incomplete, do not give me the right answer. Instead, give me a subtle hint or ask a guiding question to help me find the mistake myself.   Focus on helping me fix my understanding of concepts like RGB color, binary, 2D arrays, or UML class diagrams."
+
+
+
 
 ### Setup Instructions
 
